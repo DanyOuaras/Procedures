@@ -1,0 +1,6 @@
+-1 Tout d’abord vous devez vous connecter sur la machine concernée en administrateur (local ou réseau).
+-2 Ensuite allez à la racine du dossier utilisateur dans « C:Users » et renommez le dossier de l’utilisateur concerner en « .old »
+-3 Créez un nouveau dossier avec le nom de l’utilisateur toujours dans « C:Users »
+-4 Connectez-vous ensuite sur le compte de l’utilisateur puis fermer la session cette manipulation sert à créer un profil temporaire qui va nous servir de base pour refaire le profil
+-5 Reconnectez-vous en administrateur et Supprimez la clé en « . bak » associe au compte dans la base de registres dans «HKEY_LOCAL_MACHINESOFTWAREMicrosoftWindows NTcurrentVersionProfil List »
+-6 Enfin connectez-vous sur le profil utilisateur et restaurez les différentes donnée.
